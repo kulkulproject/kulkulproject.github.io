@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kul Kul │ Profil Perusahaan</title>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/794187409352687636/806432746750083072/favicon_FC7_icon.ico"/>
+</head>
+<style>
+body::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+ width: 100%;
+ height: 100%;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  min-height:100%;
+  height: 158vw;
+  position:relative;
+  padding-bottom: 12vw;
+}
+span {
+  font-family: sugare;
+  font-size: 200%;
+  letter-spacing: 0%;
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100vw;
+ color: white;
+ font-family: Louis;
+ height: 12vw;
+ background:#a3a3a3;
+}
+footer a {
+ color: white;
+}
+.navi {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0vh;
+  padding: 0.5%;
+  z-index: 2;
+}
+.navi .back {
+  background-color: #a7d5f2;
+}
+.navi ul {
+  list-style-type: none;
+  margin-right: 1%;
+  overflow: hidden;
+}
+.navi li {
+  float: right;
+}
+.navi li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Louisb;
+  font-size: 90%;
+  background-color: white;
+}
+.navi li a:hover {
+  background-color: #d4d4d4;
+}
+.navi img {
+  float: left;
+}
+.header-bg {
+  position: absolute;
+  width: 100%;
+}
+.title {
+  position: relative;
+  text-align: center;
+  font-family: Louisb;
+  font-size: 5.5vw;
+  color: white;
+  top: 5vw;
+  line-height: 75%;
+}
+  .title-con {
+    position: relative;
+    font-family: Louisi;
+    font-size: 2vw;
+    text-align: center;
+    top: 7vw;
+  }
+  .vmission {
+    position: relative;
+    font-family: Louis;
+    font-size: 3.5vw;
+    top: 12vw;
+    width: 90vw;
+    margin: auto;
+  }
+  .vmtext {
+    position: absolute;
+    font-size: 1.8vw;
+    top: 15px;
+    right: 0;
+  }
+  .phi {
+    position: relative;
+    font-family: Louis;
+    font-size: 3.5vw;
+    top: 60vw;
+    width: 90vw;
+    margin: auto;
+  }
+  .phitext {
+    text-align: right;
+    position: absolute;
+    right: 0vw;
+  }
+  .logo-bg {
+    position: absolute;
+    top: 45.5vw;
+    left: -9vw;
+    width:60vw;
+  }
+  .iceberg {
+    position: absolute;
+    font-size: 1.8vw;
+    text-align: center;
+    left: 0vw;
+    top: 12vw;
+  }
+  .kulkul {
+    position: absolute;
+    font-size: 1.8vw;
+    text-align: center;
+    right: 0vw;
+    top: 14.5vw;
+  }
+  .bowl {
+    position: absolute;
+    font-size: 1.8vw;
+    text-align: center;
+    top: 40vw;
+    left: 0vw;
+    right: 0vw;
+  }
+  .left-part {
+    position: absolute;
+    left: 1.5vw;
+    top: 2vh;
+    line-height: 1vh;
+    font-size: 1.3vw;
+  }
+  .map {
+    position: absolute;
+    right: 1.5vw;
+    top: 10%;
+  }
+  .right-part {
+    position: absolute;
+    right: 2vw;
+    top: 25%;
+    text-align: right;
+    font-size: 1.3vw;
+  }
+  @font-face {
+    font-family: "Louis";
+    src: url("Louis George Cafe.ttf");
+  }
+  @font-face {
+    font-family: "Louisb";
+    src: url("Louis George Cafe Bold.ttf");
+  }
+  @font-face {
+    font-family: "Louisi";
+    src: url("Louis George Cafe Italic.ttf");
+  }
+  @font-face {
+    font-family: "sugare";
+    src: url("SUGARE.ttf");
+  }
+</style>
+<body>
+  <img src="https://i.imgur.com/CcVf5Xk.jpg" class="header-bg">
+  <div style="clear:both;" class="navi">
+  <a href="index.id"><img src="https://i.imgur.com/5RqvAqo.png" style="width:125px;"></a>
+  <ul>
+    <li><a href="location.id">Lokasi</a></li>
+    <li><a href="products.id">Produk</a></li>
+    <li><a href="about.id">Tentang Kami</a></li>
+    <li><a href="company.id">Profil Perusahaan</a></li>
+    <li><a class="back" href="index.id">Kembali</a></li>
+  </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="title">KAMI ADALAH<span> KUL KUL</span>.</div>
+<br>
+<div class="title-con">Sebuah perusahaan makanan dan minuman yang berfokus
+  <br>untuk memberikan kesegaran kepada masyarakat dengan cara unik
+  <br>namun masih mempertahankan cita rasa lokal.</div>
+<div class="vmission">Apa yang kami ingin
+  <br><b>capai</b>?
+  <div class="vmtext">Kami mempunyai visi untuk membuat
+    <br>usaha kuliner yang menyegarkan berbasis online
+    <br>dengan bahan berkualitas dan dikenal se-Indonesia.
+    <br>
+    <br>Untuk mencapai misi kami, dibutuhkan misi yang
+    <br>beragam. Mulai dari menyediakan makanan dan
+    <br>minuman menyegarkan sampai mempopulerkan
+    <br>sebuah tren di mana masyarakat menerima
+    <br>ide unik, tetapi masih menonjolkan makanan
+    <br>khas Indonesia.
+    <ul>
+      <li>Menyediakan makanan dan minuman
+      <br>yang menyegarkan.</li>
+      <li>Mempopulerkan sebuah tren di mana
+      <br>masyarakat dapat menerima inovasi
+      <br>unik, tetapi masih menonjolkan makanan
+      <br>khas Indonesia.</li>
+      <li>Berinovasi produk baru sesuai keinginan
+      <br>konsumen tanpa mengesampingkan kualitas.</li>
+      <li>Selalu menggunakan bahan baku berkualitas
+      <br>untuk menciptakan makanan yang terbaik.</li>
+      <li>Memperhatikan kandungan gizi yang terkandung
+      <br>dalam bahan baku yang sehat dan dapat
+      <br>dinikmati oleh semua orang.</li>
+    </ul></div></div>
+  <img src="https://i.imgur.com/J29XzFo.png" class="logo-bg">
+  <div class="phi"><div class="phitext">Apa <b>maksud</b> dari
+    <br>logo kami?</div>
+  <div class="iceberg"><img src="https://i.imgur.com/rMLG9gr.png" style="width:30vw;">
+  <br><b>Gunung Es</b> melambangkan kesegaran yang ingin
+  <br>kami berikan melalui produk kami. Dengan lima
+  <br>warna berbeda melambangkan anggota kami.</div>
+  <div class="kulkul"><img src="https://i.imgur.com/0F3Y1Hf.png" style="width:30vw;">
+  <br>
+  <br><b>Kul Kul</b> adalah pelesetan dari kata <i>"cool"</i>,
+   <br>menandakan bahwa kami ingin memberikan sensasi
+   <br>dingin ketika kamu mengonsumsi produk kami.</div>
+  <div class="bowl"><img src="https://i.imgur.com/QnvAKAA.png" style="width:30vw;">
+    <br><b>Mangkok Ayam Jago</b> melambangkan cita rasa
+    <br>lokal yang terdapat di produk kami.</div>
+ </div>
+</body>
+<footer>
+  <div class="left-part"><img src="https://i.imgur.com/bwfrpwi.png" width="22%">
+    <br>2021. Projek ini dibuat hanya untuk tugas sekolah.</div>
+    <img class="map" src="https://i.imgur.com/tXOR9Iz.png" width="20%">
+  <div class="right-part">Kul Kul juga tersedia dalam bahasa ini
+  <br><a href="company.en">Inggris
+    <br><a href="company.id">Bahasa Indonesia</div>
+</footer>
+</html>
