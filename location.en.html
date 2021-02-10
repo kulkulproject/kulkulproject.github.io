@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kul Kul │ Our Location</title>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/794187409352687636/806432746750083072/favicon_FC7_icon.ico"/>
+</head>
+<style>
+body::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+ width: 100%;
+ height: 100%;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  min-height:100%;
+  height: 68vw;
+  position:relative;
+  padding-bottom: 12vw;
+}
+  span {
+    font-family: semongko;
+    font-size: 80px;
+  }
+  footer {
+   position: absolute;
+   bottom: 0;
+   width: 100vw;
+   color: white;
+   font-family: Louis;
+   height: 12vw;
+   background:#a3a3a3;
+  }
+  footer a {
+   color: white;
+  }
+  .navi {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0vh;
+    padding: 0.5%;
+    z-index: 2;
+  }
+  .navi .back {
+    background-color: #a7d5f2;
+  }
+  .navi ul {
+    list-style-type: none;
+    margin-right: 1%;
+    overflow: hidden;
+  }
+  .navi li {
+    float: right;
+  }
+  .navi li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Louisb;
+    font-size: 90%;
+    background-color: white;
+  }
+  .navi li a:hover {
+    background-color: #d4d4d4;
+  }
+  .navi img {
+    float: left;
+  }
+  .header-bg {
+    position: absolute;
+    width: 100%;
+  }
+  .title {
+    position: relative;
+    text-align: center;
+    font-family: Louisb;
+    font-size: 5.5vw;
+    color: white;
+    top: 5vw;
+    line-height: 75%;
+  }
+  .loc {
+    position: relative;
+    margin-top: 7vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 5px;
+    width: 98vw;
+    height: 40vw;
+  }
+  .left-part {
+    position: absolute;
+    left: 1.5vw;
+    top: 2vh;
+    line-height: 1vh;
+    font-size: 1.3vw;
+  }
+  .map {
+    position: absolute;
+    right: 1.5vw;
+    top: 10%;
+  }
+  .right-part {
+    position: absolute;
+    right: 2vw;
+    top: 25%;
+    text-align: right;
+    font-size: 1.3vw;
+  }
+  @font-face {
+    font-family: "Louis";
+    src: url("Louis George Cafe.ttf");
+  }
+  @font-face {
+    font-family: "Louisb";
+    src: url("Louis George Cafe Bold.ttf");
+  }
+  @font-face {
+    font-family: "Louisi";
+    src: url("Louis George Cafe Italic.ttf");
+  }
+  @font-face {
+    font-family: "sugare";
+    src: url("SUGARE.ttf");
+  }
+  @font-face {
+    font-family: "semongko";
+    src: url("aSemongko.ttf");
+  }
+</style>
+<body>
+  <img src="https://i.imgur.com/CcVf5Xk.jpg" width="100%" class="header-bg">
+  <div style="clear:both;" class="navi">
+  <a href="index"><img src="https://i.imgur.com/5RqvAqo.png" style="width:125px;"></a>
+  <ul>
+    <li><a href="location.en">Our Location</a></li>
+    <li><a href="products.en">Our Products</a></li>
+    <li><a href="about.en">About Us</a></li>
+    <li><a href="company.en">Company Profile</a></li>
+    <li><a class="back" href="index">Back</a></li>
+  </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="title">where are we<span> ?</span></div>
+<br>
+<iframe class="loc" frameborder="0"
+scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;
+height=600&amp;hl=en&amp;q=SMAN%2071%20Jakarta+
+(Kul%20Kul)&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+</body>
+<footer>
+  <div class="left-part"><img src="https://i.imgur.com/bwfrpwi.png" width="22%">
+    <br>2021. This project is created solely for a school assignment.</div>
+    <img class="map" src="https://i.imgur.com/tXOR9Iz.png" width="20%">
+  <div class="right-part">Kul Kul is also available in these languages
+  <br><a href="location.en">English
+    <br><a href="location.id">Bahasa Indonesia</div>
+</footer>
+</html>
